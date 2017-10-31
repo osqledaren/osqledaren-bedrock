@@ -1,0 +1,790 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "001f41805f2db09900d01065e517d083",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
+                "reference": "9ce17fb70e9a38dd8acff0636a29f5cf4d575c1b",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "replace": {
+                "roundcube/plugin-installer": "*",
+                "shama/baton": "*"
+            },
+            "require-dev": {
+                "composer/composer": "1.0.*@dev",
+                "phpunit/phpunit": "4.1.*"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Craft",
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Thelia",
+                "WolfCMS",
+                "agl",
+                "aimeos",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "joomla",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "mako",
+                "mediawiki",
+                "modulework",
+                "moodle",
+                "osclass",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "puppet",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "symfony",
+                "typo3",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "time": "2017-08-09T07:53:48+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress",
+            "version": "4.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress.git",
+                "reference": "d500aae1793990e4874cf794b6cf88ce60a38918"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress/zipball/d500aae1793990e4874cf794b6cf88ce60a38918",
+                "reference": "d500aae1793990e4874cf794b6cf88ce60a38918",
+                "shasum": ""
+            },
+            "require": {
+                "johnpbloch/wordpress-core": "4.8.2",
+                "johnpbloch/wordpress-core-installer": "^1.0",
+                "php": ">=5.3.2"
+            },
+            "type": "package",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2017-09-19T22:27:16+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress-core",
+            "version": "4.8.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core.git",
+                "reference": "706faa0d7b6b57a25d4acd18331dd71dfa6b01cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core/zipball/706faa0d7b6b57a25d4acd18331dd71dfa6b01cf",
+                "reference": "706faa0d7b6b57a25d4acd18331dd71dfa6b01cf",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2"
+            },
+            "provide": {
+                "wordpress/core-implementation": "4.8.2"
+            },
+            "type": "wordpress-core",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "WordPress Community",
+                    "homepage": "http://wordpress.org/about/"
+                }
+            ],
+            "description": "WordPress is web software you can use to create a beautiful website or blog.",
+            "homepage": "http://wordpress.org/",
+            "keywords": [
+                "blog",
+                "cms",
+                "wordpress"
+            ],
+            "time": "2017-09-19T22:27:11+00:00"
+        },
+        {
+            "name": "johnpbloch/wordpress-core-installer",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/johnpbloch/wordpress-core-installer.git",
+                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/johnpbloch/wordpress-core-installer/zipball/e9e767f2d9f994f358c34b41def2c410ad8717f2",
+                "reference": "e9e767f2d9f994f358c34b41def2c410ad8717f2",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "conflict": {
+                "composer/installers": "<1.0.6"
+            },
+            "require-dev": {
+                "composer/composer": "^1.0",
+                "phpunit/phpunit": ">=4.8.35"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "johnpbloch\\Composer\\WordPressCorePlugin"
+            },
+            "autoload": {
+                "psr-0": {
+                    "johnpbloch\\Composer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "John P. Bloch",
+                    "email": "me@johnpbloch.com"
+                }
+            ],
+            "description": "A custom installer to handle deploying WordPress with composer",
+            "keywords": [
+                "wordpress"
+            ],
+            "time": "2017-05-31T18:42:33+00:00"
+        },
+        {
+            "name": "oscarotero/env",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/oscarotero/env.git",
+                "reference": "0f676e41d758fa984806c32e27f0cf7afa63d8db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/oscarotero/env/zipball/0f676e41d758fa984806c32e27f0cf7afa63d8db",
+                "reference": "0f676e41d758fa984806c32e27f0cf7afa63d8db",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Env": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Oscar Otero",
+                    "email": "oom@oscarotero.com",
+                    "homepage": "http://oscarotero.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Simple library to consume environment variables",
+            "homepage": "https://github.com/oscarotero/env",
+            "keywords": [
+                "env"
+            ],
+            "time": "2017-07-17T20:41:59+00:00"
+        },
+        {
+            "name": "osqledaren/osqledaren-wordpress-angular2-frontend",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/osqledaren/osqledaren-wordpress-angular2-frontend.git",
+                "reference": "0c2c9ebb7282ad0c400f8fb2c30350c3213e22b2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/osqledaren/osqledaren-wordpress-angular2-frontend/zipball/0c2c9ebb7282ad0c400f8fb2c30350c3213e22b2",
+                "reference": "0c2c9ebb7282ad0c400f8fb2c30350c3213e22b2",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "description": "Disables wordpress public frontend.",
+            "support": {
+                "source": "https://github.com/osqledaren/osqledaren-wordpress-angular2-frontend/tree/master",
+                "issues": "https://github.com/osqledaren/osqledaren-wordpress-angular2-frontend/issues"
+            },
+            "time": "2017-04-23T22:57:56+00:00"
+        },
+        {
+            "name": "roots/wp-password-bcrypt",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/roots/wp-password-bcrypt.git",
+                "reference": "5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/roots/wp-password-bcrypt/zipball/5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa",
+                "reference": "5cecd2e98ccc3193443cc5c5db9b3bc7abed5ffa",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.5.0"
+            },
+            "require-dev": {
+                "brain/monkey": "^1.3.1",
+                "mockery/mockery": "^0.9.4",
+                "phpunit/phpunit": "^4.8.23|^5.2.9",
+                "squizlabs/php_codesniffer": "^2.5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "wp-password-bcrypt.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Scott Walkinshaw",
+                    "email": "scott.walkinshaw@gmail.com",
+                    "homepage": "https://github.com/swalkinshaw"
+                },
+                {
+                    "name": "qwp6t",
+                    "homepage": "https://github.com/qwp6t"
+                },
+                {
+                    "name": "Jan Pingel",
+                    "email": "jpingel@bitpiston.com",
+                    "homepage": "http://janpingel.com"
+                }
+            ],
+            "description": "WordPress plugin which replaces wp_hash_password and wp_check_password's phpass hasher with PHP 5.5's password_hash and password_verify using bcrypt.",
+            "homepage": "https://roots.io/plugins/wp-password-bcrypt",
+            "keywords": [
+                "wordpress wp bcrypt password"
+            ],
+            "time": "2016-03-01T16:27:06+00:00"
+        },
+        {
+            "name": "tedyw/wp-api-archive",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tedyw/wp-api-archive.git",
+                "reference": "e54f5ca0c201f64d2ef3ccc23d8365557161b8b8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tedyw/wp-api-archive/zipball/e54f5ca0c201f64d2ef3ccc23d8365557161b8b8",
+                "reference": "e54f5ca0c201f64d2ef3ccc23d8365557161b8b8",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "Lists archives in rest api",
+            "support": {
+                "source": "https://github.com/tedyw/wp-api-archive/tree/master",
+                "issues": "https://github.com/tedyw/wp-api-archive/issues"
+            },
+            "time": "2017-04-23T17:52:58+00:00"
+        },
+        {
+            "name": "tedyw/wp-api-rest-filter",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tedyw/wp-api-rest-filter.git",
+                "reference": "ead5969cb6b9fa86686a456ad6881b8615322ba8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tedyw/wp-api-rest-filter/zipball/ead5969cb6b9fa86686a456ad6881b8615322ba8",
+                "reference": "ead5969cb6b9fa86686a456ad6881b8615322ba8",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "Restores wordpress filter argument in rest api.",
+            "support": {
+                "source": "https://github.com/tedyw/wp-api-rest-filter/tree/master"
+            },
+            "time": "2017-04-23T17:53:24+00:00"
+        },
+        {
+            "name": "tedyw/wp-oauth2-cookie",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tedyw/wp-oauth2-cookie.git",
+                "reference": "2da9783fc8bab002989466ebfa3465536de6ee6f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tedyw/wp-oauth2-cookie/zipball/2da9783fc8bab002989466ebfa3465536de6ee6f",
+                "reference": "2da9783fc8bab002989466ebfa3465536de6ee6f",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "Retrieves oauth2 access token on wordpress logon.",
+            "support": {
+                "source": "https://github.com/tedyw/wp-oauth2-cookie/tree/master",
+                "issues": "https://github.com/tedyw/wp-oauth2-cookie/issues"
+            },
+            "time": "2017-04-23T21:42:24+00:00"
+        },
+        {
+            "name": "vlucas/phpdotenv",
+            "version": "v2.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vlucas/phpdotenv.git",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "reference": "3cc116adbe4b11be5ec557bf1d24dc5e3a21d18c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.9"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8 || ^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dotenv\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause-Attribution"
+            ],
+            "authors": [
+                {
+                    "name": "Vance Lucas",
+                    "email": "vance@vancelucas.com",
+                    "homepage": "http://www.vancelucas.com"
+                }
+            ],
+            "description": "Loads environment variables from `.env` to `getenv()`, `$_ENV` and `$_SERVER` automagically.",
+            "keywords": [
+                "dotenv",
+                "env",
+                "environment"
+            ],
+            "time": "2016-09-01T10:05:43+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/acf-to-rest-api",
+            "version": "2.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/acf-to-rest-api/",
+                "reference": "tags/2.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.2.2.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/acf-to-rest-api/"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-custom-fields",
+            "version": "4.4.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
+                "reference": "tags/4.4.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.4.4.12.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
+        },
+        {
+            "name": "wpackagist-plugin/clean-image-filenames",
+            "version": "1.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/clean-image-filenames/",
+                "reference": "tags/1.1.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/clean-image-filenames.1.1.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/clean-image-filenames/"
+        },
+        {
+            "name": "wpackagist-plugin/custom-post-type-ui",
+            "version": "1.5.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/custom-post-type-ui/",
+                "reference": "tags/1.5.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.5.5.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/custom-post-type-ui/"
+        },
+        {
+            "name": "wpackagist-plugin/oauth2-provider",
+            "version": "3.2.003",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/oauth2-provider/",
+                "reference": "tags/3.2.003"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/oauth2-provider.3.2.003.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/oauth2-provider/"
+        },
+        {
+            "name": "wpackagist-plugin/regenerate-thumbnails",
+            "version": "2.2.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/regenerate-thumbnails/",
+                "reference": "tags/2.2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/regenerate-thumbnails.2.2.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/regenerate-thumbnails/"
+        },
+        {
+            "name": "wpackagist-plugin/rest-api-search",
+            "version": "1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rest-api-search/",
+                "reference": "tags/1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rest-api-search.1.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rest-api-search/"
+        },
+        {
+            "name": "wpackagist-plugin/seriously-simple-podcasting",
+            "version": "1.15.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/seriously-simple-podcasting/",
+                "reference": "tags/1.15.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/seriously-simple-podcasting.1.15.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/seriously-simple-podcasting/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-importer",
+            "version": "0.6.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-importer/",
+                "reference": "tags/0.6.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.6.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-importer/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-rest-api-pure-taxonomies",
+            "version": "1.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-rest-api-pure-taxonomies/",
+                "reference": "tags/1.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-rest-api-pure-taxonomies.1.0.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-rest-api-pure-taxonomies/"
+        },
+        {
+            "name": "wpackagist-plugin/yet-another-related-posts-plugin",
+            "version": "4.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/yet-another-related-posts-plugin/",
+                "reference": "tags/4.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/yet-another-related-posts-plugin.4.4.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/yet-another-related-posts-plugin/"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "squizlabs/php_codesniffer",
+            "version": "3.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
+                "reference": "d667e245d5dcd4d7bf80f26f2c947d476b66213e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/d667e245d5dcd4d7bf80f26f2c947d476b66213e",
+                "reference": "d667e245d5dcd4d7bf80f26f2c947d476b66213e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "ext-tokenizer": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.0 || ^5.0 || ^6.0"
+            },
+            "bin": [
+                "bin/phpcs",
+                "bin/phpcbf"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Greg Sherwood",
+                    "role": "lead"
+                }
+            ],
+            "description": "PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.",
+            "homepage": "http://www.squizlabs.com/php-codesniffer",
+            "keywords": [
+                "phpcs",
+                "standards"
+            ],
+            "time": "2017-10-16T22:40:25+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "tedyw/wp-api-archive": 20,
+        "tedyw/wp-api-rest-filter": 20,
+        "tedyw/wp-oauth2-cookie": 20,
+        "osqledaren/osqledaren-wordpress-angular2-frontend": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.6"
+    },
+    "platform-dev": []
+}
